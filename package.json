@@ -1,0 +1,19 @@
+{
+  "name": "link-converter-discord-bot",
+  "version": "1.0.0",
+  "description": "A discord bot to convert links from social media websites to show embeds on discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcordova/link-converter-discord-bot.git"
+  },
+  "author": "mrcordova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrcordova/link-converter-discord-bot/issues"
+  },
+  "homepage": "https://github.com/mrcordova/link-converter-discord-bot#readme"
+}
