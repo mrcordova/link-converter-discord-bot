@@ -1,10 +1,8 @@
-const { SlashCommandBuilder } = require("discord.js");
+import { SlashCommandBuilder } from "discord.js";
 
-module.exports = {
-  data: new SlashCommandBuilder()
-    .setName("lc")
-    .setDescription("Convert link into embed"),
-  async execute(interaction) {
-    await interaction.reply(`This command lc`);
-  },
-};
+export const data = new SlashCommandBuilder()
+  .setName("lc")
+  .setDescription("Convert link into embed");
+export async function execute(interaction) {
+  await interaction.reply(`This command lc`);
+}
