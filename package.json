@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A discord bot to convert links from social media websites to show embeds on discord",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/mrcordova/link-converter-discord-bot/issues"
   },
-  "homepage": "https://github.com/mrcordova/link-converter-discord-bot#readme"
+  "homepage": "https://github.com/mrcordova/link-converter-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "nodemon": "^3.1.9"
+  }
 }
