@@ -1,6 +1,6 @@
 export const websites = {
-  instagram: "instagramez",
-  x: "fxtwitter",
-  twitter: "fxtwitter",
-  reddit: "",
+  "instagram.com": "instagramez.com",
+  "x.com": "fxtwitter.com",
+  "twitter.com": "fxtwitter.com",
+  "reddit.com": "rxddit.com",
 };
