@@ -1,12 +1,6 @@
 import fs from "fs";
 import path from "path";
-import {
-  Client,
-  Collection,
-  Events,
-  GatewayIntentBits,
-  MessageFlags,
-} from "discord.js";
+import { Client, Collection, GatewayIntentBits } from "discord.js";
 import config from "./config.json" assert { type: "json" };
 import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
